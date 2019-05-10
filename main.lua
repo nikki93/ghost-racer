@@ -361,7 +361,7 @@ function love.update(dt)
     makeCarEngineNoise(dt)
     updateExhaustPuffs(dt)
     countdownTimer = love.timer.getTime() - countdownLastDigitTime
-    if countdownTimer > 1.4 then
+    if countdownTimer > 0.4 then
       countdownDigit = countdownDigit - 1
       if countdownDigit == 0 then
         Sounds.countdownGo:play()
