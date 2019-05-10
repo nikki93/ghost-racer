@@ -37,7 +37,7 @@ end
 -- Render constants
 local GAME_WIDTH = 192
 local GAME_HEIGHT = 192
-local RENDER_SCALE = 3
+local RENDER_SCALE = 1
 
 -- Game variables
 local car
